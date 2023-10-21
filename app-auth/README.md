@@ -6,10 +6,10 @@ npm install @expo/vector-icons
 
 --Instalar o Navigation
 npm install @react-navigation/native
-npm install react-native-screens react-native-safe-area-context
+npx expo install react-native-screens react-native-safe-area-context
 
 --Stack
-npm install @react-navigation/stack
+npm install @react-navigation/native-stack
 npx expo install react-native-gesture-handler
 
 -- Instalar o firebase
