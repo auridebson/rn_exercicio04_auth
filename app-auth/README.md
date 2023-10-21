@@ -10,3 +10,6 @@ npm install react-native-screens react-native-safe-area-context
 
 --Stack
 npm install @react-navigation/stack
+
+-- Instalar o firebase
+npm install firebase

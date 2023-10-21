@@ -1,6 +1,5 @@
-import { TextInput, VirtualizedList } from "react-native";
-import { Button } from "react-native";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, TextInput, StyleSheet, TouchableOpacity } from "react-native";
+import { Logado } from './src/Pages/Logado'
 
 export default function Home(){
     return (
@@ -15,7 +14,10 @@ export default function Home(){
                 <TextInput placeholder="Login" style={Styles.container} />
                 <Text style={Styles.containerTitulos}>Password</Text>
                 <TextInput placeholder="Password" style={Styles.container} />
-                <TouchableOpacity style={Styles.containerButtons}>
+                <TouchableOpacity 
+                    style={Styles.containerButtons}
+                    onPress={Logado}
+                >
                     <Text>Enviar</Text>
                 </TouchableOpacity>
             </View>
