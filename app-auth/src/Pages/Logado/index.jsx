@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-export default function Logado(){
+export default function Logado() {
     return (
 
         <View style={Styles.containerTela}>

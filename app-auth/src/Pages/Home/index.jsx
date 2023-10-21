@@ -1,7 +1,9 @@
 import { View, Text, TextInput, StyleSheet, TouchableOpacity } from "react-native";
-import { Logado } from './src/Pages/Logado'
+import { useNavigation } from "@react-navigation/native";
+import { Logado } from '../Logado';
 
 export default function Home(){
+    const navigation = useNavigation()
     return (
 
         <View style={Styles.containerTela}>
@@ -16,7 +18,7 @@ export default function Home(){
                 <TextInput placeholder="Password" style={Styles.container} />
                 <TouchableOpacity 
                     style={Styles.containerButtons}
-                    onPress={Logado}
+                    onPress={ () => navigation.navigate("Logado") }
                 >
                     <Text>Enviar</Text>
                 </TouchableOpacity>
@@ -67,8 +69,7 @@ const Styles = StyleSheet.create({
         alignItems: 'center',
         borderRadius: 8,
         fontSize: 14,
-        fontWeight: 'bold'
-
+        fontWeight: 'bold',
 
     }
   });

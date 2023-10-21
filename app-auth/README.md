@@ -10,6 +10,10 @@ npm install react-native-screens react-native-safe-area-context
 
 --Stack
 npm install @react-navigation/stack
+npx expo install react-native-gesture-handler
 
 -- Instalar o firebase
 npm install firebase
+
+-- Instalar o animatable
+npm install react-native-animatable --save
