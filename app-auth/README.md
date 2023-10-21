@@ -17,3 +17,6 @@ npm install firebase
 
 -- Instalar o animatable
 npm install react-native-animatable --save
+
+-- Instalar o Axios
+npm install axios
