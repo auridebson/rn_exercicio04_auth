@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-export function Home(){
+export default function Home(){
     return (
 
         <View>
@@ -8,7 +8,6 @@ export function Home(){
                 Minha Home Page
             </Text>
         </View>
-
 
     )
 }
